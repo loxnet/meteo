@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="125.36124mm"
+   height="119.8483mm"
+   viewBox="0 0 125.36125 119.84831"
+   version="1.1"
+   id="svg1172"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="Night.svg">
+  <defs
+     id="defs1166" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="956.86531"
+     inkscape:cy="-145.15207"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5"
+     inkscape:window-width="1920"
+     inkscape:window-height="1012"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata1169">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-186.02771,-105.54013)">
+    <path
+       inkscape:connector-curvature="0"
+       d="m 251.34848,197.21428 c -17.50695,0 -31.75,-14.24308 -31.75,-31.75 0,-17.50695 14.24305,-31.75 31.75,-31.75 0.84815,0 1.71709,0.0354 2.58254,0.10515 0.94644,0.0765 1.77922,0.65397 2.18255,1.51333 0.40333,0.8594 0.31522,1.86915 -0.23074,2.64584 -3.13947,4.4651 -4.79894,9.72034 -4.79894,15.19727 0,6.69157 2.5036,13.07724 7.04969,17.98108 4.52171,4.87773 10.64845,7.85715 17.25142,8.38941 0.9462,0.0762 1.77922,0.6537 2.18255,1.51334 0.40333,0.85939 0.31522,1.86914 -0.23075,2.64583 -5.94743,8.45865 -15.66259,13.50875 -25.98832,13.50875 z m -2.27518,-58.11144 c -13.52772,1.15805 -24.18316,12.53903 -24.18316,26.36144 0,14.58928 11.86919,26.45833 26.45834,26.45833 7.1148,0 13.8821,-2.8776 18.81513,-7.86024 -6.06835,-1.44359 -11.59852,-4.65632 -15.91067,-9.30772 -5.456,-5.88542 -8.46071,-13.54879 -8.46071,-21.57878 0,-4.93665 1.12397,-9.72394 3.28107,-14.07303 z"
+       id="path142"
+       style="fill:#FFFFFF;stroke-width:0.26458332" />
+  </g>
+</svg>

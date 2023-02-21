@@ -1,0 +1,75 @@
+:host {
+  padding: var(--widget-padding, 1em);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  --icon-url: url('assets/weather/Clouds.svg');
+  h3 {
+    color:var(--title-color, rgb(240,240,240));
+  }
+  .instant {
+    display: flex;
+    flex-direction: row;
+    border-radius: var(--widget-border-radius, 5px);
+    font-size:.8rem;
+    background-color: var(--app-widget-color, rgb(250, 250, 250));
+    padding: 1em;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0,.3);
+    transform: scale(1);
+    transition: transform ease 200ms;
+    &:hover {
+      transform: scale(1.1);
+      transition: transform ease 200ms;
+      .icon {
+        transition: transform ease 200ms;
+        transform: rotate(20deg);
+      }
+    }
+    label {
+      &:not(:last-child) {
+        margin-right:.5em;
+        font-weight: 600;
+        flex: 1;
+      }
+    }
+    .visual {
+      border-radius: 5px;
+      margin:.5em;
+      padding:.5em;
+      background: rgb(195,150,34);
+      background: linear-gradient(128deg, var(--color-mode, #de7318 0%, #fbe800 100%));
+      box-shadow: 0px 5px 10px rgba(0,0,0,.2);
+      --content-color:rgb(128,128,128);
+      .icon {
+        width: var(--icon-size, 128px);
+        height: var(--icon-size, 128px);
+        transition: transform ease 200ms;
+      }
+      .description {
+        display: flex;
+        text-transform: capitalize;
+        justify-content: center;
+        color: var(--content-color);
+        font-weight: 600;
+      }
+    }
+    .main {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      justify-content: stretch;
+      margin-left: .5em;
+      .row {
+        &:not(:last-child) {
+          margin-bottom:.5em ;
+        }
+      }
+    }
+  }
+  &.widget {
+    --color-mode: #1825de 0%, #c900fb 100%;
+    --content-color:white;
+  }
+
+}

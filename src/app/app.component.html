@@ -1,0 +1,21 @@
+<div class="row">
+  <h2>Sélection de la ville</h2>
+  <div class="weather">
+    <select (ngModelChange)="updateCity($event)" [ngModel]="city">
+      <option [value]="c.nom" *ngFor="let c of cities">{{c.nom}}</option>
+    </select>
+  </div>
+</div>
+<div class="layout">
+  <div class="selected" *ngIf="weather">
+    <h3>{{weather.name}}</h3>
+    <app-meteo-widget class="widget" [weather]="weather"> </app-meteo-widget>
+  </div>
+  <div *ngIf="oneCall" class="previvions">
+    <h3>{{city.nom}}</h3>
+    <app-meteo-widget
+      *ngFor="let daily of oneCall?.daily"
+      [daily]="daily"
+    ></app-meteo-widget>
+  </div>
+</div>

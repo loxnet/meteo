@@ -1,0 +1,36 @@
+<div *ngIf="daily" class="daily">
+  <div class="info">
+    <div *ngFor="let w of daily.weather" id="w{{w.id}}" class="instant">
+      <div class="visual">
+        <img
+          class="icon"
+          [alt]="w.description"
+          [src]="'assets/weather/' + w.main + '.svg'"
+        />
+        <div class="description">{{w.description}}</div>
+      </div>
+      <div class="main">
+        <div class="row">
+          <label>Date</label>
+          <span>{{daily.dt * 1000 | date:'dd/MM/YYYY'}}</span>
+        </div>
+        <div class="row">
+          <label>Température</label>
+          <span>{{daily.temp.day| temperatures:'celcius'}}°C</span>
+        </div>
+        <div class="row">
+          <label>Humidité</label>
+          <span>{{daily.humidity}}%</span>
+        </div>
+        <div class="row">
+          <label>Pression</label>
+          <span>{{daily.pressure}} hPa</span>
+        </div>
+        <div class="row">
+          <label>Vent</label>
+          <span>{{daily.windspeed}} m/s</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
